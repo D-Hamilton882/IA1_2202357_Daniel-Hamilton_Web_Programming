@@ -1,0 +1,157 @@
+html, body {
+    background-color: #2F3E46; 
+    margin: 0:
+    padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+    color: #8A9A5B; /* sage green */
+}
+h2 {
+    color: #8A9A5B; /* sage green */
+}
+
+nav {
+    background-color: #FFFDD0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   /* This removes the bottom space */
+    padding: 0 20px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: var(--cream);
+}
+
+nav a {
+    font-size: 23px;
+    font-weight: bold;
+    color: #8A9A5B;
+    text-decoration: none;
+}
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #8A9A5B;
+    text-align: left;
+}
+.demography {
+    border: 2px solid #8A9A5B;   
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;        
+    background-color: #FFFDD0; 
+    width: 30% 
+}
+.resume {
+    border: 2px solid #8A9A5B;   
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;        
+    background-color: #FFFDD0; 
+}
+.FavouriteScene {
+    border: 2px solid #8A9A5B;   
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;        
+    background-color: #FFFDD0; 
+    width: 70%
+}
+.development{
+    border: 2px solid #8A9A5B;   
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;        
+    background-color: #FFFDD0; 
+    width: 70%
+}
+
+.Reflection {
+    border: 2px solid #8A9A5B;   
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;        
+    background-color: #FFFDD0; 
+    width: 70%
+}
+section h2 {
+    text-align: left;
+}
+
+
+section p {
+    text-align: center;
+}
+
+
+section ul,
+section li {
+    text-align: left;
+}
+
+
+table {
+    margin: 0 auto; 
+}
+
+.subject {
+    text-align: left;
+}
+
+.grade {
+    text-align: right;
+}
+/* =========================
+   600px and up
+========================= */
+@media (min-width: 600px) {
+
+    nav ul {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+}
+
+
+/* =========================
+   950px and up (Desktop)
+========================= */
+@media (min-width: 950px) {
+
+    .row {
+        display: flex;
+        gap: 20px;
+    }
+
+    .demography {
+        width: 35%;
+    }
+
+    .resume {
+        width: 60%;
+    }
+
+}
